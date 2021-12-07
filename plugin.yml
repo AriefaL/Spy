@@ -1,0 +1,17 @@
+---
+name: Spy
+author: Ariefal
+main: spy\Main
+version: 1.0.0
+api: 4.0.0
+
+commands:
+  spy:
+    description: "Access to enable or disable Mode Spy."
+    permission: "spy.access"
+
+permissions:
+  spy.access:
+    description: "Allows access to look player what used command."
+    default: op
+...
